@@ -1,4 +1,5 @@
-<form class="border border-3 border-primary rounded p-4 mb-3 w-100 w-md-25" action=""
+<form class="rounded p-4 mb-3 w-100 w-md-25"
+      style="background-color:#e3f2fd;" action=""
       method="post">
     <div class="row mb-3">
         <div class="col-12 col-md-6">
