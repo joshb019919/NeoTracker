@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light py-1 mb-3 text-uppercase fs-1 rounded-bottom border-bottom border-3 border-primary"
+<nav class="navbar navbar-expand-lg navbar-light py-1 mb-3 text-uppercase fs-1 rounded-bottom mb-5 border-bottom border-3 border-primary"
      style="background-color:#e3f2fd;">
     <a href="http://localhost/index">
         <img class="bg-dark navbar-brand rounded-circle border border-3 border-primary mx-3"

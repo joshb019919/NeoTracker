@@ -19,6 +19,7 @@ public class NeoTrackerServiceImpl implements NeoTrackerService {
 
     /**
      * Save an object to the database if not present.
+     *
      * @param object The name of the near Earth object.
      * @return The
      */
@@ -33,6 +34,7 @@ public class NeoTrackerServiceImpl implements NeoTrackerService {
 
     /**
      * Save a list of objects to the database where not present.
+     *
      * @param objects The near Earth objects to save.
      * @return A list of the names of which objects were saved.
      */
@@ -49,15 +51,17 @@ public class NeoTrackerServiceImpl implements NeoTrackerService {
 
     /**
      * Find an object in the database.
+     *
      * @param name The name of the near Earth object.
      * @return True if found, else false.
      */
-    public Boolean existsByName(String name) {
+    public boolean existsByName(String name) {
         return neoTrackerDao.existsByName(name);
     }
 
     /**
      * Find an object in the database.
+     *
      * @param name The name of the near Earth object.
      * @return The near Earth object if found, else null.
      */
