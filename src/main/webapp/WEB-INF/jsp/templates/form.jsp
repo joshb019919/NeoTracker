@@ -1,6 +1,6 @@
 <form class="rounded p-4 mb-3 w-100 w-md-25"
-      style="background-color:#e3f2fd;" action=""
-      method="post">
+      style="background-color:#e3f2fd;" action="${pageContext.request.contextPath}/index"
+      method="GET">
     <div class="row mb-3">
         <div class="col-12 col-md-6">
             <label for="start-date" class="form-label">Start</label>
@@ -18,6 +18,6 @@
         </div>
     </div>
     <div class="row">
-        <button type="submit" class="btn btn-lg btn-primary mt-3">Submit</button>
+        <button type="submit" id="submit" class="btn btn-lg btn-primary mt-3">Submit</button>
     </div>
 </form>
