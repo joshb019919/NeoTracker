@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light py-1 mb-3 text-uppercase fs-1 rounded-bottom mb-5 border-bottom border-3 border-primary"
      style="background-color:#e3f2fd;">
-    <a href="http://localhost/index">
+    <a href="http://96.126.127.202:8080">
         <img class="bg-dark navbar-brand rounded-circle border border-3 border-primary mx-3"
              src="../../resources/earth_from_space_small.png"
              alt="image of earth from space"/>
