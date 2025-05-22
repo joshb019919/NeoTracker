@@ -5,7 +5,7 @@
         <div class="col-12 col-md-6">
             <label for="start-date" class="form-label">Start</label>
             <input type="date" id="start-date" class="form-control form-control-lg"
-                   aria-describedby="dateHelp1">
+                   aria-describedby="dateHelp1" required>
             <span id="dateHelp1"
                   class="form-text">Search start</span>
         </div>

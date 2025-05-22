@@ -32,7 +32,8 @@ public class NeoTrackerController {
     public ResponseEntity<List<NearEarthObject>> saveObject(@RequestBody ObjectNode body)
             throws JsonProcessingException {
         String start = body.get("start").asText();
-        String end = body.get("end").asText();
+        String end = body.hasNonNull("end") ? body.get("end").asText() : start;
+        
         RestTemplate template = new RestTemplate();
         String response = template
                 .getForObject("https://api.nasa.gov/neo/rest/v1/feed?start_date="

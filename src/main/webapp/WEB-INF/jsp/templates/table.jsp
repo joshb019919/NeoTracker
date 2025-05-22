@@ -15,6 +15,6 @@
         <th scope="col">SENTRY</th>
     </tr>
     </thead>
-    <tbody class="table-group-divider">
+    <tbody id="tbody" class="table-group-divider">
     </tbody>
 </table>
